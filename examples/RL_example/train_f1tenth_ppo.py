@@ -7,6 +7,7 @@ from utils import render_callback, path_filler
 from f110_rlenv import F110Env_Discrete_Action
 from ppo_agent import PPOAgent
 
+print ('Initialize RL Environment')
 with open('./config_example_map.yaml') as file:
     conf_dict = yaml.load(file, Loader=yaml.FullLoader)
 conf = Namespace(**conf_dict)
@@ -14,6 +15,8 @@ env = F110Env_Discrete_Action(conf=conf)
 env.f110.add_render_callback(render_callback)
 
 # train
+print ('Start Training')
+
 task = 'ppo'
 cfg_path = os.path.join(path_filler('config'), f'RlF110_{task}cfg.json')
 cfg = Namespace(**json.load(open(cfg_path)))
