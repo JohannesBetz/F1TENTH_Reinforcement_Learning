@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daf0dcc4-1a17-41bb-bf59-750845e05ebd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/RL_example/train_f1tenth_ppo.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/RL_example/train_f1tenth_ppo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638229248056</updated>
-      <workItem from="1638229253042" duration="1386000" />
+      <workItem from="1638229253042" duration="1428000" />
     </task>
     <servers />
   </component>

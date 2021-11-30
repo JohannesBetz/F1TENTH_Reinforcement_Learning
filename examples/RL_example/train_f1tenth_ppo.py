@@ -25,6 +25,8 @@ os.makedirs(cfg.model_dir, exist_ok=True)
 
 model = PPOAgent(env=env, lr_actor=0.001, lr_critic=0.001, gamma=0.99, K_epochs=3,
                  eps_clip=0.2, conf=cfg)
+
+print ('Training Finished')
 # model.train(episode_num=10000, update_interval=100, render_interval=5000, save_interval=3000)
 
 
